@@ -123,5 +123,33 @@
     flex-direction: column;
     display: flex;
 }
-.segment__image {
+.segment__header {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.segment__text {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+.segment__last {
+    background-image: url(./img/image6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* gap: 20px;
+    padding-top: 100px; */
+}
+.last__header {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+.last__text {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
 }
